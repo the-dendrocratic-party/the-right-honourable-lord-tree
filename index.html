@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>The Right Honourable Lord Tree</title>
+<link rel="stylesheet" media="only screen and (min-device-width: 700px)" href="style.css">
+<link rel="stylesheet" media="only screen and (max-device-width: 700px)" href="style-mobile.css" />
+<link href="https://fonts.googleapis.com/css2?family=Baskervville&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+<script>
+    function toggle_menu() {
+        for (element of document.getElementsByClassName("header-bar-link")) {
+          style = window.getComputedStyle(element);
+          if (style.getPropertyValue("display") == "block") {
+            element.style.display = "none";
+          }
+          else {
+            element.style.display = "block";
+          }
+        }
+}
+</script>
+</head>
+
+<body>
+    <div class="header-bar">
+        <a class="menu" onclick="toggle_menu()">&#9776;</a>
+        <a href="index.html" class="header-bar-link">HOME</a>
+        <a href="how-to-vote.html" class="header-bar-link">HOW TO VOTE</a>
+        <a href="manifesto.html" class="header-bar-link">THE MANIFESTO</a>
+        <a href="contact.html" class="header-bar-link">CONTACT</a>
+    </div>
+    <img src="tree.jpg" class="main-img">
+    <div class="overlay-text">The Right Honourable Lord Tree</div>
+    <div style="position: relative; top: 29vw;">
+        <div class="two-sections">
+            <div class="section-left">
+                <h1>Who is The Right Honourable Lord Tree?</h1>
+                <p>The Right Honourable Lord Tree is the tree surrounded by bushes located between the Sixth Form Centre and Performing Arts. He is an esteemed member of the Dendrocratic Party and hence was the obvious choice of candidate for the leader of the Hutton Sixth Form council. He aims to end the anthropocentric council and replace it with a more just dendrocratic institution that truly represents the world: there are hundreds of times more trees than humans.</p>
+            </div>
+            <div class="section-right">
+                <h1>Why Vote for The Right Honourable Lord Tree?</h1>
+                <p>The Right Honourable Lord Tree is standing for leader of Hutton Sixth Form council on the following platform: </p>
+                <ol>
+                    <li>He is a tree.</li>
+                    <li>He will continue his fight against climate change.</li>
+                    <li>He will be very photosynthesis.</li>
+                    <li>He fill facilate an end to the anthropocentric Sixth Form council and the transition to dendrocracy (rule by trees).</li>
+                    <li>He is a tree.</li>
+                </ol>
+            </div>
+        </div>
+        <blockquote class="big-quote">He is a tree.</blockquote>
+        <div class="quote-label">&mdash; The Dendrocratic Party</div>
+        <div class="link-container">
+            <a class="box-link" href="manifesto.html">The Dendrocratic Manifesto</a>
+            <a class="box-link" href="how-to-vote.html">How to Vote</a>
+            <a class="box-link" href="contact.html">Contact</a>
+        </div>
+        <div class="bottom-section">
+            <img src="shield.png" class="shield">
+            <h1 class="shield-name">The Dendrocratic Party</h1>
+            <div class="centre-wrapper">
+                <div class="link-columns">
+                    <a href="index.html" class="bottom-link">Home</a><br>
+                    <a href="how-to-vote.html" class="bottom-link">How to Vote</a><br>
+                    <a href="manifesto.html" class="bottom-link">Manifesto</a><br>
+                    <a href="contact.html" class="bottom-link">Contact</a><br>
+                </div>
+            </div>
+            <div class="contact-info"><h2>Contact:</h2>The Right Honourable Lord Tree: Coming Soon.<br>The Dendrocratic Party: the-dendrocratic-party@protonmail.com<br></div>
+            <div class="footnote">Note: The Dendrocratic Party and the Right Honourable Lord Tree are not intended to be serious candidates for the leader of the Hutton Sixth Form Council. Please only vote for the Right Honourable Lord Tree if you do not have a strong preference for any of the other candidates.</div>
+        </div>
+    </div>
+</body>
+
+</html>
